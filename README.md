@@ -12,6 +12,6 @@ A memory game using HTML, CSS and JavaScript
 ## How to play
 
 * clone or download the project
-* open the projet folder
+* open the project folder
 * run the `index.html` file
 * have fun!! :)
