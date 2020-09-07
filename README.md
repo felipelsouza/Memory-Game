@@ -11,7 +11,10 @@ A memory game using HTML, CSS and JavaScript
 
 ## How to play
 
+You can access the <a href="https://memory-game-html.vercel.app/" target="_blank">Memory Game</a> or follow these steps:
+
 * clone or download the project
 * open the project folder
 * run the `index.html` file
-* have fun!! :)
+
+### have fun!! :)
