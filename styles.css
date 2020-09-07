@@ -2,17 +2,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #FFF;
 }
 
-body {
+.container {
     height: 100vh;
+    width: 100vw;
     display: flex;
     background: #060AB2;
 }
 
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    font: 400 1rem 'Kufam';
+}
+
+.header h1 {
+    font: 600 1.6rem 'Kufam';
+}
+
 .memory-game {
-    width: 640px;
-    height: 640px;
+    width: 840px;
+    height: 540px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +35,7 @@ body {
 }
 
 .memory-card {
-    width: calc(25% - 10px);
+    width: calc(16.666% - 10px);
     height: calc(33.333% - 10px);
     margin: 5px;
     position: relative;
@@ -53,4 +68,25 @@ body {
 
 .front-face {
     transform: rotateY(180deg);
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footer h4 {
+    font: 500 1rem 'Kufam';
+}
+
+.link {
+    font: 400 italic .6rem 'Kufam';
+}
+
+.link a {
+    text-decoration: none;
+    color: #1C7CCC;
 }
